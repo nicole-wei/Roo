@@ -1,0 +1,751 @@
+html {
+    margin: auto;
+    max-width: 1920px;
+    min-width: 600px;
+}
+
+body, div {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 100%;
+}
+    
+#nav_bar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+
+li {
+    display: inline;
+    margin-right: 50px;
+    font-family: josefin sans, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-family: josefin sans, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: orange;
+    font-family: josefin sans, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+} 
+
+h1 {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    color: #f9a980;
+    font-family: josefin sans, sans-serif;
+    font-weight: 600;
+    font-size: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    color: #3c241d; 
+    font-family: josefin sans, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    color: #3c241d;
+    font-family: josefin sans, sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: #3c241d;
+    font-family: josefin sans, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border-width: 0px;
+    border-top: 3px solid;
+    border-color: #f9a980;
+    margin-left: 13%;
+    background-color: none;
+    border-radius: 3px;
+}
+
+#left_col {
+    width: 50%; 
+    height: 500px; 
+    float: left; 
+    padding-top: 50px;
+}
+
+#right_col { 
+    width: 50%; 
+    height: 500px; 
+    float: left; 
+    padding-top: 50px;
+}
+
+#home {
+    background-image: url(images/elements/fabric_texture.png);
+    background-size: 750px;
+    background-repeat: repeat;
+    height: 890px;
+    padding-top: 190px; 
+}
+
+#home_col {
+    width: 50%;
+    float: left;
+}
+
+#roo_patient {
+    padding-top: 110px;
+    width: 100%;
+}
+
+#roo {
+    color: #f9a980;
+    font-family: josefin sans, sans-serif;
+    font-weight: 600;
+    font-size: 12rem; 
+    width: 70%;
+    margin-left: 50px;
+    padding-top: 270px;
+}
+
+#home_friend {
+    color: #3c241d;
+    font-family: josefin sans, sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    width: 70%;
+    margin-left: 70px;
+    margin-top: -30px;
+}
+
+#mission {
+    background-image: url(images/ears/ears_white.png);
+    background-position: bottom;
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    background-color: blanchedalmond;
+    height: 990px;
+    padding-top: 90px;
+}
+
+#mission_col {
+    width: 50%;
+    float: left;
+}
+
+#mission_heading {
+    max-width: ;
+    width: 50%;
+    height: auto;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+#mission_para {
+    padding-left: 310px;
+    padding-top: 25px;
+    font-size: 1.25rem;  
+}
+
+#standing_roo {
+    max-width; 90%;
+    height:auto; 
+    width: 89%;
+    float: right;
+    position: bottom;
+}
+
+#history {
+    background-image: url(images/);
+    background-repeat: no-repeat;
+    height: 2600px;
+}
+
+#history_left_col {
+    display: flex;
+    width: 33%;
+    height: 500px;
+    min-width: 400px;
+    float: left;
+    margin-left: 0%;
+    padding-top: 50px;
+}
+
+#history_center_col {
+    display: flex;
+    width: 33%;
+    height: 500px;
+    min-width: 400px;
+    float: left;
+    margin-left: 0%;
+    padding-top: 50px;
+}
+
+#history_right_col {
+    display: flex; 
+    width: 33%;
+    height: 500px;
+    min-width: 400px;
+    float: left;
+    margin-left: 0%;
+    padding-top: 50px;
+}
+
+#history_sec0 {
+    background: url(images/history/history_sec0.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1920px;
+    height: 500px;
+}
+
+#history_heading {
+    padding-top: 405px;
+    font-size: 6rem;
+    padding-right: 20px;
+}
+
+#history_sec1 {
+    background-image: url(images/history/history_sec1.png);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    height: 500px;    
+}
+
+#PLEO {
+    padding-top: 210px;
+    padding-left: 290px;
+    padding-right: 5%;
+    min-width: 400px;
+    font-size: 1.5rem;
+}
+
+#Pekee {
+    padding-top: 180px;
+    padding-left: 200px;
+    padding-right: 5%;
+    min-width: 400px;
+    font-size: 1.5rem;
+}
+
+#PARO {
+    padding-top: 220px;
+    padding-left: 75px;
+    padding-right: 5%;
+    min-width: 400px;
+    font-size: 1.5rem;
+}
+
+#history_sec2 {
+    background-image: url(images/history/history_sec2.png);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    height: 575px;
+}
+
+#ROBEAR {
+    padding-top: 245px;
+    padding-left: 290px;
+    padding-right: 5%;
+    min-width: 400px;
+    font-size: 1.5rem;
+}
+
+#Pepper {
+    padding-top: 175px;
+    padding-left: 200px;
+    padding-right: 5%;
+    min-width: 400px;
+    font-size: 1.5rem;
+}
+
+#Huggable {
+    padding-top: 85px;
+    padding-left: 75px;
+    padding-right: 5%;
+    min-width: 400px;
+    font-size: 1.5rem;
+}
+
+#history_sec3 {
+    background-image: url(images/history/history_sec3.png);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    height: 400px;
+}
+
+#SAM {
+    padding-top: 95px;
+    padding-left: 290px;
+    padding-right: 5%;
+    min-width: 400px;
+    font-size: 1.5rem;
+}
+
+#Pillo_Health {
+    padding-top: 55px;
+    padding-left: 200px;
+    padding-right: 5%;
+    min-width: 400px;
+    font-size: 1.5rem;
+}
+
+#MIKO {
+    padding-top: 90px;
+    padding-left: 75px;
+    padding-right: 5%;
+    min-width: 400px;
+    font-size: 1.5rem;
+}
+
+#history_sec4 {
+    background-image: url(images/history/history_sec4.png);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    height: 400px
+}
+
+#roo_history {
+    padding-top: 80px;
+    padding-left: 290px;
+    padding-right: 5%;
+    font-size: 2rem;
+    min-width: 400px; 
+}
+
+#history_footer {
+    background-image: url(images/ears/history_footer.png);
+    background-repeat: no-repeat;
+    background-size: 1920px; 
+    height: 185px;
+}
+
+#features {
+    background-image: url(images/elements/features_path.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 990px;
+    padding-top: 90px;
+}
+
+#feature_col {
+    width: 50%; 
+    float: left
+}
+
+#roo_inside {
+    max-width: 100%; 
+    float: left;
+    padding-top: 80px;
+}
+
+#heading_features {
+    width: 45%;
+    float: none; 
+    padding-top: 60px;
+    padding-left: 30px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#feature_text {
+    padding-left: 20px;
+    font-size: ; 
+    font-weight: 300;
+    width: 90%;
+    min-width: 400px;
+}
+
+#feature1{
+    font-size: 1.25rem;
+}
+
+#stories {
+    height: 1250px;
+    padding-top: 150px;
+}
+
+#stories_heading {
+    font-size: 6rem;
+    padding-top: 100px;
+}
+    
+#stories_half_circle {
+    background-image: url(images/heading/half_circle.png);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 48px;
+}
+
+#ashe_story_col{
+    width: 30%;
+    float: left;
+}
+
+#ashe_image{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50%;
+    padding-top: 90px;
+    width: 300px;
+}
+
+#story_ashe{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+    padding-top: 100px;
+}
+
+#joy_story_col{
+    width: 60%;
+    float: left;
+}
+
+#joy_story_col2{
+    width: 30%;
+    float: right;
+}
+
+#joy_image{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:;
+    padding-top: 100px;
+    width: 300px;
+}
+
+#story_joy{
+    width: 1300px;
+    margin-left: 190px;
+    margin-right: auto;
+    max-width: 1400px;
+    padding-top: 100px;
+}
+
+#userheading{
+    font-size: 2.5rem;
+    margin-left:150px
+}
+
+#usertext{
+    font-size: 1.25rem;
+    margin-left: 150px;
+}
+#FAQ {
+    background-image: url(images/ears/ears_white.png);
+    background-position: bottom;
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    background-color: blanchedalmond;
+    height: 990px;
+    padding-top: 100px;
+}
+
+#faq_col{
+    width: 50%;
+    float: left; 
+}
+
+#faqhead{
+    padding-top: 50px;
+}
+
+#questions{
+    font-size: 1.2rem;
+    min-width: 400px; 
+}
+
+#answers{
+    font-size: 1.2rem;
+    min-width: 400px;
+    width: 70%;
+}
+
+#rooheart{
+    width: 1000px;
+    padding-top: 100px;
+}
+
+#team {
+    background-image: url(images/ears/ears_right.png);
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: ;
+    height: 890px;
+    margin: 0;
+    padding: 0;
+    padding-top: 150px;
+}
+
+#contact {
+    background-image: url(images/elements/fabric_texture.png);
+    background-size: 500px;
+    background-repeat: repeat;
+    height: 890px;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+
+#contact_col{
+    width: 50%; 
+    height: 600px; 
+    float: left; 
+    background-color: ;
+    margin-left: 0%;
+    padding-top: 75px;
+}
+
+#contacthead{
+    margin: auto;
+    padding-left: 260px
+}
+
+#contactinfo{
+    padding-left: 180px;
+    margin-top: 5%;
+}
+
+#roo_wave {
+    max-width: 100%;
+    height: auto;
+    width: 880px;
+    float: right;
+}
+
+footer {
+    height: 25px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #3c241d;
+    font-family: josefin sans, sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #d5e8c5;
+}
+
+@media only screen and (max-width : 600px) 
+{
+    #nav_bar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    }
+    
+    li {
+    display: block;
+    line-height: 22px;
+    }
+    
+    ul {
+    margin: 0;
+    padding: 0;
+    height: 210px;
+    padding-top: 20px;
+    }
+    
+    #home, #mission, #history, #features, #stories, #FAQ, #team, #contact {
+    padding-top: 200px;
+    }
+    
+    #home {
+        background-image: url(images/elements/fabric_texture.png);
+        background-size: 750px;
+        background-repeat: repeat;
+        height: 890px;
+        padding-top: 190px; 
+    }
+    #home_col {
+        width: 100%;
+        float: left;
+    }
+
+    #roo_patient {
+        padding-top: 110px;
+        max-width: 100%;
+        width: 70%;
+    }
+
+    #roo {
+        color: #f9a980;
+        font-family: josefin sans, sans-serif;
+        font-weight: 600;
+        font-size: 6rem; 
+        width: 70%;
+        margin-left: 50px;
+    }
+
+    #home_friend {
+        color: #3c241d;
+        font-family: josefin sans, sans-serif;
+        font-weight: 400;
+        font-size: 2rem;
+        width: 70%;
+        margin-left: 55px;
+        margin-top: -10px;
+    }
+    #mission_col {
+       width: 100%;
+       float: left;
+    }
+    #mission_para {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        width: auto;
+        font-size: 1rem;
+    }
+    #standing_roo{
+        width: 100%;
+    }
+    #mission_heading {
+        max-width: ;
+        width: 300px;
+        height: auto;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    
+    #history_footer {
+        background-image: url(images/ears/history_footer.png);
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 185px;
+    }
+    
+    #features {
+        background-image: url(images/elements/features_path.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 990px;
+        padding-top: 90px;
+    }
+
+    #feature_col {
+        width: 100%; 
+        float: left
+    }
+
+    #roo_inside {
+        width: 500px; 
+        padding-top: 120px;
+    }
+    #ashe_story_col{
+        width: 100%
+    }
+    #story_ashe{
+        width: 100%
+    }
+    #story_joy{
+        width: 100%;
+    }
+    #joy_story_col{
+        width: 100%
+    }
+    #faq_col{
+        width:100%
+    }
+    #questions{
+        font-size: 1.2rem;
+        min-width: 400px;
+        width: 80%
+    }
+    #answers{
+        font-size: 1.2rem;
+        min-width: 400px;
+        width: 80%;
+    }
+    #rooheart{
+        width: 100%
+    }
+    #contact_col{
+        width: 100%;
+        height: 380px; 
+        float: left; 
+        background-color: ;
+        margin-left: 0%;
+        padding-top: 75px;
+    }
+    #contacthead{
+        margin: auto;
+        padding-left: 0px;
+    }
+    #contactinfo{
+        margin:auto;
+        margin-top: 5%;
+        padding-left: 0px;
+    }
+    hr {
+        margin-right: 13%;
+}
+    #roo_wave{
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+    footer {
+        font-size: 1rem;
+    }
+}
