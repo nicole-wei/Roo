@@ -7,7 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- CSS Style -->
-        <link rel="stylesheet" href="style.css">  
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <!-- Javascript Script -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -27,22 +28,22 @@
 <body>
     <div id="container">
     <!-- ---------- Navigation Bar ---------- -->
-
-        <div id="nav_bar">
-            <nav><ul>
-                <li><a href="#home" style= "color:orange; font-size: 24pt;"><b>Roo</b></a></li>
-                <li><a href="#mission">Mission</a></li>
-                <li><a href="#history">History</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#stories">Stories</a></li>
-                <li><a href="#FAQ">FAQ</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul></nav>
+        <div id="nav_bar" class="topnav">
+                <a href="#home" style= "color: #f9a980; font-size: 2rem;"><b>Roo</b></a>
+                <a href="#mission">Mission</a>
+                <a href="#history">History</a>
+                <a href="#features">Features</a>
+                <a href="#stories">Stories</a>
+                <a href="#FAQ">FAQ</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+    
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
         </div>
     <!-- -----X----- navigation bar -----X----- -->
-        
-        <div id="home">
+      <div id="home">
             <div id="home_col">
                 <img src="images/roo/patient_roo.png" id="roo_patient">
             </div>
@@ -229,7 +230,7 @@
                     </p>
         </div>
         
-    <div id="contact">
+        <div id="contact">
             <div id="contact_col">
             <h1 id="contacthead">Contact Us</h1><br>
                 <div id="contactinfo">
@@ -250,6 +251,18 @@
             </div>
         </div>
     </div>
+    
+<script>
+    function myFunction() {
+    var x = document.getElementById("nav_bar"); 
+    if (x.className === "topnav") {
+        x.className += " responsive";
+        } else {
+        x.className = "topnav";
+        }
+    }
+</script>
+    
 </body>
     
     <footer>
