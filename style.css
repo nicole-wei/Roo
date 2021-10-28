@@ -157,37 +157,37 @@ hr {
 }
 
 #home_col {
-    display:flex;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     float: left;
 }
 
 #roo_patient {
-    padding-top: 110px;
+    padding-top: 105px;
     width: 100%;
 }
+
 #hometext{
     width: 50%;
 }
 
 #roo {
     color: #f9a980;
-    font-family: josefin sans, sans-serif;
     font-weight: 600;
     font-size: 12rem; 
     width: 70%;
     margin-left: 50px;
-    padding-top: 270px;
+    padding-top: 200px;
 }
 
 #home_friend {
     color: #3c241d;
-    font-family: josefin sans, sans-serif;
     font-weight: 400;
     font-size: 4rem;
     width: 70%;
     margin-left: 70px;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 
 #mission {
@@ -233,36 +233,6 @@ hr {
     height: 2600px;
 }
 
-#history_left_col {
-    display: flex;
-    width: 33%;
-    height: 500px;
-    min-width: 400px;
-    float: left;
-    margin-left: 0%;
-    padding-top: 50px;
-}
-
-#history_center_col {
-    display: flex;
-    width: 33%;
-    height: 500px;
-    min-width: 400px;
-    float: left;
-    margin-left: 0%;
-    padding-top: 50px;
-}
-
-#history_right_col {
-    display: flex; 
-    width: 33%;
-    height: 500px;
-    min-width: 400px;
-    float: left;
-    margin-left: 0%;
-    padding-top: 50px;
-}
-
 #history_sec0 {
     background: url(images/history/history_sec0.png);
     background-repeat: no-repeat;
@@ -276,99 +246,157 @@ hr {
     font-size: 6rem;
     padding-right: 20px;
 }
-
+/* ----------------------------------------------- */
 #history_sec1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
     background-image: url(images/history/history_sec1.png);
+    background-color: ;
     background-repeat: no-repeat;
     background-size: 1920px;
-    height: 500px;    
+    height: 500px;
+    justify-content: center;
 }
-
-#PLEO {
-    padding-top: 210px;
-    padding-left: 290px;
-    padding-right: 5%;
-    min-width: 400px;
-    font-size: 1.5rem;
+#hs1 {
+    padding-top: 100px;
+    width: 33%;
+    margin: 20px;
+    width: 500px;
+    height: 300px;
 }
-
 #Pekee {
-    padding-top: 180px;
-    padding-left: 200px;
-    padding-right: 5%;
-    min-width: 400px;
-    font-size: 1.5rem;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0%;
+    width: 100%;
+    min-width: ;
+    font-size: 2rem;
+    margin: auto;
 }
 
 #PARO {
-    padding-top: 220px;
-    padding-left: 75px;
-    padding-right: 5%;
-    min-width: 400px;
-    font-size: 1.5rem;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0%;
+    min-width: ;
+    width: 100%;
+    font-size: 2rem;
+    margin: auto;
 }
 
+#PLEO {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: ;
+    width: 100%;
+    font-size: 2rem;
+    margin: auto;
+}
+
+/* ----------------------------------------------- */
+
 #history_sec2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
     background-image: url(images/history/history_sec2.png);
     background-repeat: no-repeat;
     background-size: 1920px;
     height: 575px;
 }
 
+#hs2 {
+    padding-top: 50px;
+    width: 33%;
+    margin: 20px;
+    width: 500px;
+    height: 200px; 
+}
 #ROBEAR {
-    padding-top: 245px;
-    padding-left: 290px;
-    padding-right: 5%;
-    min-width: 400px;
-    font-size: 1.5rem;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0%;
+    width: 100%;
+    min-width: ;
+    font-size: 2rem;
+    margin: auto;
 }
 
 #Pepper {
-    padding-top: 175px;
-    padding-left: 200px;
-    padding-right: 5%;
-    min-width: 400px;
-    font-size: 1.5rem;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0%;
+    width: 100%;
+    min-width: ;
+    font-size: 2rem;
+    margin: auto;
 }
 
 #Huggable {
-    padding-top: 85px;
-    padding-left: 75px;
-    padding-right: 5%;
-    min-width: 400px;
-    font-size: 1.5rem;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0%;
+    width: 100%;
+    min-width: ;
+    font-size: 2rem;
+    margin: auto;
 }
 
+/* ----------------------------------------------- */
+
 #history_sec3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
     background-image: url(images/history/history_sec3.png);
     background-repeat: no-repeat;
     background-size: 1920px;
     height: 400px;
 }
 
+#hs3 {
+    padding-top: 50px;
+    width: 33%;
+    margin: 20px;
+    width: 500px;
+    height: 200px; 
+}
+    
 #SAM {
-    padding-top: 95px;
-    padding-left: 290px;
-    padding-right: 5%;
-    min-width: 400px;
-    font-size: 1.5rem;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0%;
+    width: 100%;
+    min-width: ;
+    font-size: 2rem;
+    margin: auto;
 }
 
 #Pillo_Health {
-    padding-top: 55px;
-    padding-left: 200px;
-    padding-right: 5%;
-    min-width: 400px;
-    font-size: 1.5rem;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0%;
+    width: 100%;
+    min-width: ;
+    font-size: 2rem;
+    margin: auto;
 }
 
 #MIKO {
-    padding-top: 90px;
-    padding-left: 75px;
-    padding-right: 5%;
-    min-width: 400px;
-    font-size: 1.5rem;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0%;
+    width: 100%;
+    min-width: ;
+    font-size: 2rem;
+    margin: auto;
 }
+
+/* ----------------------------------------------- */
 
 #history_sec4 {
     background-image: url(images/history/history_sec4.png);
@@ -378,12 +406,16 @@ hr {
 }
 
 #roo_history {
-    padding-top: 80px;
-    padding-left: 290px;
+    padding-top: 0px;
+    padding-left: 160px;
     padding-right: 5%;
     font-size: 2rem;
-    min-width: 400px; 
+    min-width: 400px;
+    width: 25%;
+    float: left; 
 }
+
+/* ----------------------------------------------- */
 
 #history_footer {
     background-image: url(images/ears/history_footer.png);
@@ -401,14 +433,25 @@ hr {
 }
 
 #feature_col {
-    width: 50%; 
-    float: left
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    float: left;
+}
+
+#featuretext{
+    width: 50%;
 }
 
 #roo_inside {
     max-width: 100%; 
+    width: 50%;
     float: left;
     padding-top: 80px;
+}
+
+#rooinside {
+    width: 110%;
 }
 
 #heading_features {
@@ -433,8 +476,8 @@ hr {
 }
 
 #stories {
-    height: 1250px;
-    padding-top: 150px;
+    height: 1350px;
+    padding-top: 120px;
 }
 
 #stories_heading {
@@ -448,53 +491,56 @@ hr {
     background-repeat: no-repeat;
     background-position: top;
     padding-top: 48px;
+    padding-bottom: 50px;
 }
 
 #ashe_story_col{
-    width: 30%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
     float: left;
 }
 
-#ashe_image{
+#ashe_image {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 50%;
-    padding-top: 90px;
-    width: 300px;
+    padding-left: 300px;
+    padding-top: 50px;
+    width: 350px;
 }
 
 #story_ashe{
-    width: 1000px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
+    max-width: 100%;
     padding-top: 100px;
+    padding-right: 300px
 }
 
 #joy_story_col{
-    width: 60%;
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
     float: left;
-}
-
-#joy_story_col2{
-    width: 40%;
-    float: right;
 }
 
 #joy_image{
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0;
-    padding-top: 100px;
-    width: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    float: right; 
+    width: 350px;
 }
 
 #story_joy{
-    width: 1000px;
-    margin-left: 190px;
+    width: 80%;
+    margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
-    padding-top: 100px;
+    max-width: 100%;
+    padding-top: 50px;
+    padding-left: 300px; 
 }
 
 #userheading{
@@ -518,28 +564,39 @@ hr {
 }
 
 #faq_col{
-    width: 50%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
     float: left; 
+}
+#rooheart{
+    width: 100%;
+    padding-top: 10px;
+}
+
+#faqtext{
+    width: 50%;
 }
 
 #faqhead{
     padding-top: 50px;
+    margin: 0px;
+    margin-left: 5%;
 }
 
 #questions{
-    font-size: 1.2rem;
-    min-width: 400px; 
+    font-size: 1.30rem;
+    min-width: 400px;
+    margin: 0px;
+    margin-left: 5%; 
 }
 
 #answers{
-    font-size: 1.2rem;
+    font-size: 1.30rem;
     min-width: 400px;
     width: 70%;
-}
-
-#rooheart{
-    width: 1000px;
-    padding-top: 100px;
+    margin: 0px;
+    margin-left: 5%; 
 }
 
 #team {
@@ -650,129 +707,389 @@ footer {
         height: 890px;
         padding-top: 190px; 
     }
-    
     #home_col {
-        width: 100%;
-        float: left;
+        display:flex;
+        flex-direction: column-reverse;
     }
 
     #roo_patient {
-        padding-top: 110px;
-        max-width: 100%;
-        width: 70%;
+        width: 100%;
     }
-
+    
+    #hometext{
+        width: 100%;
+    }
     #roo {
-        color: #f9a980;
-        font-family: josefin sans, sans-serif;
-        font-weight: 600;
-        font-size: 6rem; 
-        width: 70%;
-        margin-left: 50px;
+        font-size:;
+        padding-top: 100px;
     }
 
     #home_friend {
-        color: #3c241d;
-        font-family: josefin sans, sans-serif;
-        font-weight: 400;
-        font-size: 2rem;
-        width: 70%;
-        margin-left: 55px;
-        margin-top: -10px;
+        font-size: ;
+        width: 100%
+    } 
+    #mission {
+        background-image: url(images/ears/ears_white.png);
+        background-position: bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: blanchedalmond;
+        height: 2090px;
+        padding-top: 90px;
     }
-    
     #mission_col {
        width: 100%;
        float: left;
     }
-    
+    #mission_heading {
+        max-width: ;
+        width: 90%;
+        height: auto;
+        padding-left: 0px;
+        padding-top: 80px;
+    }
     #mission_para {
         padding-left: 25px;
         padding-right: 25px;
         padding-top: 25px;
         width: auto;
-        font-size: 1rem;
+        font-size: 2.25rem;
     }
-    
-    #standing_roo {
+    #standing_roo{
         width: 100%;
     }
-    
-    #mission_heading {
-        max-width: ;
-        width: 300px;
+    #history {
+        background-image: url(images/);
+        background-color: ;
+        background-repeat: no-repeat;
+        height: 3400px;
+    } 
+/* --------------------------------------------------*/
+    #history_sec1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
         height: auto;
-        padding-left: 0px;
+        padding-left: 100px;
+        padding-top: 50px;
+        background-image: none;
+        }
+    #history_sec2{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+        padding-left: 100px;
+        background-image: none;
+    }
+    #history_sec3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-left: 100px;
+        background-image: none;
+    }
+    #history_sec4{
+        width: 90%;
+        height: auto;
+        padding-left: 100px;
+        background-image: none;
+    }
+/* --------------------------------------------------*/
+    #hs1{
+        height: auto;
         padding-top: 0px;
     }
-    
+    #hs2{
+        height: auto;
+        padding-top: 0px;
+    }   
+    #hs3{
+        height: auto;
+        padding-top: 0px;
+    }
+/* --------------------------------------------------*/
+    #PLEO {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+        font-size: 2.25rem;
+        height: auto;
+        margin: 0px;
+    }
+    #Pekee {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+        font-size: 2.25rem;
+        height: auto;
+        margin: 0px;
+    }
+    #PARO {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+        font-size: 2.25rem;
+        height: auto;
+    }
+    #ROBEAR {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+        font-size: 2.25rem;
+        height: auto;
+        margin: 0px;
+    }
+
+    #Pepper {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+        font-size: 2.25rem;
+        height: auto;
+        margin: 0px;
+    }
+
+    #Huggable {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+        font-size: 2.25rem;
+        height: auto;
+        margin: 0px;
+    }
+    #SAM {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+        font-size: 2.25rem;
+        height: auto;
+        margin: 0px;
+    }
+
+    #Pillo_Health {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+        font-size: 2.25rem;
+        height: auto;
+        margin: 0px;
+    }
+
+    #MIKO {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+        font-size: 2.25rem;
+        height: auto;
+        margin: 0px;
+    }
+
+    #roo_history {
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 25px;
+        width: 100%;
+        font-size: 2.25rem;
+        height: auto;
+        margin: 0px;
+    }
+/* --------------------------------------------------*/
     #history_footer {
         background-image: url(images/ears/history_footer.png);
         background-repeat: no-repeat;
         background-size: 100%; 
-        height: 185px;
+        height: 50px;
     }
-    
     #features {
         background-image: url(images/elements/features_path.png);
         background-size: auto;
+        background-color: ;
         background-repeat: no-repeat;
-        height: 990px;
+        height: 2410px;
         padding-top: 90px;
     }
-
     #feature_col {
+        display: flex;
+        flex-direction: column-reverse;
         width: 100%; 
-        float: left
     }
-
-    #roo_inside {
-        width: 500px; 
-        padding-top: 120px;
+     #featuretext{
+        width: 100%;
     }
-    
-    #ashe_story_col {
-        width: 100%
+    #roo_inside { 
+        width: 100%;
+        float: left;
+        padding-top: 0px;
+    }
+    #rooinside{
+        padding-top: 50px;
+        width: 100%;
+    }
+    #heading_features {
+        width: 60%;
+        float: none; 
+        padding-top: 60px;
+        padding-left: 30px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    #feature_text {
+        width: 100%;
+        min-width: 400px;
+        margin: 0px;
+        padding-left: 0px;
+    }
+    #feature1{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        width: auto;
+        font-size: 2.25rem;
+        margin: auto; 
+    }
+    #stories{
+        background-color: ;
+        height: 3700px;
+        padding-top: 150px;
         
     }
-    
-    #story_ashe {
-        width: 80%;
-        padding: 0px;
+    #ashe_story_col{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        float: left;
+    }
+    #ashe_image {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 16.5%;
+        padding-bottom: 10%;
+        padding-top: 0px;
+        width: 400px;
+        
+    }
+    #story_ashe{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        font-size: 2.25rem;
         margin: 0px;
+        width: 90%;
     }
-    
-    #story_joy {
-        width: 80%;
-        padding: 0px;
+    #userheading{
+        font-size: 2.5rem;
+        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%; 
+        text-align: center;
+    }
+    #usertext{
+        font-size: 2rem;
+        margin-left: 0px;
+        margin: auto;
+        width: 100%;
+        padding-top: 20px;
+    }
+    #joy_story_col{
+        display: flex;
+        flex-direction: column-reverse; 
+        width: 100%;
+        float: left;
+    }
+    #joy_image{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 16.5%;
+        padding-bottom: 10%;
+        padding-top: 0px;
+        width: 400px;
+        padding-top: 150px;
+    }
+    #story_joy{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        font-size: 2.25rem;
         margin: 0px;
+        width: 90%;
     }
-    
-    #joy_story_col {
-        width: 100%
+    #FAQ{
+        background-image: url(images/ears/ears_white.png);
+        background-position: bottom;
+        background-color: ; 
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 1875px;
+        padding-top: 100px;
     }
-    
-    #faq_col {
+    #faq_col{
+        display: flex;
+        flex-direction: column-reverse;
         width:100%
     }
-    
-    #questions {
-        font-size: 1.25rem;
-        min-width: 400px;
-        width: 80%
+    #rooheart{
+        width:100%
     }
-    
-    #answers {
-        font-size: 1.25rem;
-        min-width: 400px;
-        width: 80%;
-    }
-    
-    #rooheart {
+    #faqtext{
         width: 100%
     }
-    
-    #contact_col {
+    #faqhead{
+        width: 100%; 
+    }
+    #questions{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        width: auto;
+        font-size: 2rem;
+        min-width: 400px;
+        margin: auto;
+    }
+    #answers{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        width: auto;
+        font-size: 2rem;
+        min-width: 400px;
+        margin: auto;
+    }
+    #rooheart{
+        width: 100%
+    }    
+    #team {
+        background-image: url(images/ears/ears_right.png);
+        background-position: bottom;
+        background-color: ;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 890px;
+        margin: 0;
+        padding: 0;
+        padding-top: 150px;
+    }
+    #contact {
+        background-image: url(images/elements/fabric_texture.png);
+        background-size: 500px;
+        background-repeat: repeat;
+        height: 1060px;
+        margin: 0;
+        padding: 0;
+        padding-top: 100px;
+    }
+    #contact_col{
         width: 100%;
         height: 380px; 
         float: left; 
@@ -780,30 +1097,29 @@ footer {
         margin-left: 0%;
         padding-top: 75px;
     }
-    
-    #contacthead {
+    #contacthead{
         margin: auto;
         padding-left: 0px;
     }
-    
-    #contactinfo {
+    #contactinfo{
         margin:auto;
         margin-top: 5%;
         padding-left: 0px;
     }
-    
     hr {
-        margin-right: 15%;
+        margin-right: 13%;
     }
-    
-    #roo_wave {
+    #roo_wave{
         width: 100%;
         height: auto;
         float: right;
     }
-    
     footer {
-        font-size: 1rem;
+        height: 20px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.25rem;
     }
 }
-

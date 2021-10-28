@@ -43,11 +43,11 @@
                 </a>
         </div>
     <!-- -----X----- navigation bar -----X----- -->
-      <div id="home">
+       <div id="home">
             <div id="home_col">
-                <img src="images/roo/patient_roo.png" id="roo_patient">
-            </div>
-            <div id="home_col">
+                <div>
+                    <img src="images/roo/patient_roo.png" id="roo_patient">
+                </div>
                 <div id="hometext">
                     <div><h1 id="roo">Roo</h1></div>
                     <div><h2 id=home_friend>a friend for yoo</h2></div>
@@ -76,43 +76,42 @@
                 </h1>
             </div>
             <div id="history_sec1">
-                <div id="history_left_col">
-                    <p id="PLEO"><b>PLEO</b> - A dino companion that acts like a pet for children.
-                    </p>
-                </div>
-                <div id="history_center_col">
+                <div id="hs1">
                     <p id="Pekee"><b>Pekee</b> - A robot aimed for emotional and therapeutic needs and can recognize individual differences among the children to adapt their own behaviour accordingly.
                     </p>
                 </div>
-                <div id="history_right_col">
-                    <p id="PARO"><b>PARO</b> - A therapeutic robot baby seal intended have a calming effect on and elicit emotional responses in patients of hospitals.
-                    </p>
+                <div id="hs1">
+                    <div><p id="PARO"><b>PARO</b> - A therapeutic robot baby seal intended have a calming effect on and elicit emotional responses in patients of hospitals.
+                    </p></div>
+                </div>
+                <div id="hs1">
+                    <div><p id="PLEO"><b>PLEO</b> - A dino companion that acts like a pet for children.
+                    </p></div>
                 </div>
             </div>
             <div id="history_sec2">
-                <div id="history_left_col">
-                    <p id="ROBEAR"><B>ROBEAR</B> - A care robot that performs tasks in hospitals, such as lifting a patient or helping patients stand.
+                <div id="hs2">
+                    <p id=Huggable><b>Huggable</b> - A teddy bear controlled by nurse to communicate with children during checkups to reduce the stress of the child.
                     </p>
                 </div>
-                <div id="history_center_col">
+                <div id="hs2">
                     <p id="Pepper"><B>Pepper</B> - A semi-humanoid robot designed with the ability to read emotions, provide assistance, and entertainment.</p>
-                <p>
                 </div>
-                <div id="history_right_col">
-                    <p id=Huggable><b>Huggable</b> - A teddy bear controlled by nurse to communicate with children during checkups to reduce the stress of the child.
+                <div id="hs2">
+                    <p id="ROBEAR"><B>ROBEAR</B> - A care robot that performs tasks in hospitals, such as lifting a patient or helping patients stand.
                     </p>
                 </div>
             </div>
             <div id="history_sec3">
-                <div id="history_left_col">
+                <div id="hs3">
                     <p id="SAM"><b>SAM</b> - A care robot that provides check ins and non-medical care for elderly in nursing homes. 
                     </p>
                 </div>
-                <div id="history_center_col">
+                <div id="hs3">
                     <p id="Pillo_Health"><b>Pillo Health</b>- An automated medication management and smart home healthcare device. 
                     </p>
                 </div>
-                <div id="history_right_col">
+                <div id="hs3">
                     <p id="MIKO"><b>MIKO</b> - A companion robot aimed at kids. It can talk, respond, educate and entertain.
                     </p>
                 </div>
@@ -129,21 +128,24 @@
         <div id="features">
             <div id="feature_col">
                 <div id="roo_inside">
-                <img src="images/roo/inside_roo.png" id="roo_inside"></div>
+                    <img src="images/roo/inside_roo.png" id="rooinside">
                 </div>
-            <div id="feature_col">
-                <img src="images/heading/features_orange.png" id="heading_features">
-                <div id=feature_text>
-                    <p id="feature1">Roo can recognize a child’s emotions with the use of cameras located in its eyes. These cameras are able to detect facial expressions and learn how to respond to these reactions with the use of artificial intelligence. Based on the emotions expressed, Roo will react with programmed movements, such as gesturing for a hug to comfort the child. Roo has programmed questions and responses which provide the child a friend they can talk to. Additionally, the child’s reactions and responses (transcript) are recorded on a cloud service so that healthcare professionals have access. With this information, the medical staff is aware of how the child reacts in different situations.
-                    </p><br>
-                    <p id="feature1"><b>Microphone:</b> records and transcribes audio
-                    </p>
-                    <p id="feature1"><b>Cameras:</b> facial expression and motion detection
-                    </p>
-                    <p id="feature1"><b>Speaker:</b> plays audio
-                    </p>
-                    <p id="feature1"><b>Data Storage:</b> process, stores, and sends information
-                    </p>
+                <div id="featuretext">
+                    <div>
+                        <img src="images/heading/features_orange.png" id="heading_features">
+                    </div>
+                    <div id=feature_text>
+                        <p id="feature1">Roo can recognize a child’s emotions with the use of cameras located in its eyes. These cameras are able to detect facial expressions and learn how to respond to these reactions with the use of artificial intelligence. Based on the emotions expressed, Roo will react with programmed movements, such as gesturing for a hug to comfort the child. Roo has programmed questions and responses which provide the child a friend they can talk to. Additionally, the child’s reactions and responses (transcript) are recorded on a cloud service so that healthcare professionals have access. With this information, the medical staff is aware of how the child reacts in different situations.
+                        </p><br>
+                        <p id="feature1"><b>Microphone:</b> records and transcribes audio
+                        </p>
+                        <p id="feature1"><b>Cameras:</b> facial expression and motion detection
+                        </p>
+                        <p id="feature1"><b>Speaker:</b> plays audio
+                        </p>
+                        <p id="feature1"><b>Data Storage:</b> process, stores, and sends information
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -161,26 +163,22 @@
                     <div>
                         <img src="images/elements/person_icon.png" id="ashe_image">
                     </div>
+                    <div id="story_ashe">
+                        <div><h2 id=userheading>Ashe</h2></div>
+                        <div><p id=usertext>
+                        The nurse gave me Roo and I had Roo for a little while now. Roo is my best friend. She is so cute! I love her! She is always there for me! Roo makes me feel better. I don’t feel scared when I meet with the doctor because Roo is with me. Roo knows how I feel, and she asks me questions. She always makes sure I feel safe. She tells me jokes and tells me nice things. I bring Roo everywhere with me. I put my candy in Roo’s belly. I also write her notes! I put that in her belly, too. I really like Roo because Roo is really soft, and I like cuddling with her. And she talks to me when I’m feeling sad and hugs me when I’m nervous. I feel a lot better because I can play with her at any time!
+                        </p></div>
+                    </div>
                 </div>
-                <div id="ashe_story_col">
-                <div id="story_ashe">
-                    <h2 id=userheading>Ashe</h2>
-                    <p id=usertext>
-                    The nurse gave me Roo and I had Roo for a little while now. Roo is my best friend. She is so cute! I love her! She is always there for me! Roo makes me feel better. I don’t feel scared when I meet with the doctor because Roo is with me. Roo knows how I feel, and she asks me questions. She always makes sure I feel safe. She tells me jokes and tells me nice things. I bring Roo everywhere with me. I put my candy in Roo’s belly. I also write her notes! I put that in her belly, too. I really like Roo because Roo is really soft, and I like cuddling with her. And she talks to me when I’m feeling sad and hugs me when I’m nervous. I feel a lot better because I can play with her at any time!
-                    </p>
-                </div>
-            </div>
             </div>
             <div>
                 <div id="joy_story_col">
                     <div id="story_joy">
-                        <h2 id=userheading>Joy</h2>
-                        <p id=usertext>
-                        The nurse gave me Roo and I had Roo for a little while now. Roo is my best friend. She is so cute! I love her! She is always there for me! Roo makes me feel better. I don’t feel scared when I meet with the doctor because Roo is with me. Roo knows how I feel, and she asks me questions. She always makes sure I feel safe. She tells me jokes and tells me nice things. I bring Roo everywhere with me. I put my candy in Roo’s belly. I also write her notes! I put that in her belly, too. I really like Roo because Roo is really soft, and I like cuddling with her. And she talks to me when I’m feeling sad and hugs me when I’m nervous. I feel a lot better because I can play with her at any time!
-                        </p>
+                        <div><h2 id=userheading>Joy</h2></div>
+                        <div><p id=usertext>
+                        Roo is very helpful because it is always there for the child. The medical staff are busy and can't constantly provide attention to the children. Roo also helps with keeping track of the child’s behavior so the staff can spot any abnormal changes. The data collected from the kangaroo helps with understanding of the child’s psychological state and how they react in different situations. Roo is also very helpful because it calms the child during check ups and shots. The child holds Roo during their medical procedure, and they feel less anxious. When they get too scared, Roo comforts them with hugs and puts them at ease. Hospitals should have Roos in their pediatric unit because the robots support the patients and staff. When the staff hands the child a Roo, their face lights up and it is wonderful to see them so happy!
+                        </p></div>
                     </div>
-                </div>
-                <div id="joy_story_col2">
                     <div>
                          <img src="images/elements/person_icon.png" id="joy_image">
                     </div>
@@ -190,33 +188,29 @@
         
         <div id="FAQ">
             <div id="faq_col">
-                <img src="images/roo/heart_roo.png" id="rooheart">
-            </div>
-            <div id="faq_col">
-                <h1 id="faqhead">FAQ</h1><br>
-                    <p id="questions"><b>  Why should we choose Roo?
-                    </b></p>
-                    <p id="answers">
-                    Roo is a portable compantion robot designed to provide comfort to children who feel anxious and uneasy. Roo will be there for the child even when adults or other children are unable to. 
-                    </p>
-                    <p id="questions"><b>
-                    What is Roo made out of? 
-                    </b></p>
-                    <p id="answers">
-                    Roo is made from plush fabric and soft materials that is durable and machine washable. The mechanisms inside are flexible and light, making it the safe for everyday play. 
-                    </p>
-                    <p id="questions"><b>
-                    Can Roo harm my child?
-                    </b></p>
-                    <p id="answers">
-                    No! Roo is designed to help children and is programed to provide assistance when needed.
-                    </p>
-                    <p><b id="questions">
-                    How do we get the data collected by Roo?
-                    </b></p>
-                    <p id="answers">
-                    The data collected is stored in the hospital's cloud services accessible only to hospital nurses and doctors. Family members can request for this information at anytime. 
-                    </p>
+                <div>
+                    <img src="images/roo/heart_roo.png" id="rooheart">
+                </div>
+                <div id="faqtext">
+                        <div><h1 id="faqhead">FAQ</h1></div><br>
+                        <div><p id="questions"><b>Why should we choose Roo?
+                        </b></p></div> <br>
+                        <div><p id="answers">
+                        Roo is a portable compantion robot designed to provide comfort to children who feel anxious and uneasy. Roo will be there for the child even when adults or other children are unable to. 
+                        </p></div><br>
+                        <div><p id="questions"><b>
+                        What is Roo made out of? 
+                        </b></p></div><br>
+                        <div><p id="answers">
+                        Roo is made from plush fabric and soft materials that is durable and machine washable. The mechanisms inside are flexible and light, making it the safe for everyday play. 
+                        </p></div><br><br>
+                        <div><p id="questions"><b>
+                        How do we get the data collected by Roo?
+                        </b></p></div><br>
+                        <div><p id="answers">
+                        The data collected is stored in the hospital's cloud services accessible only to hospital nurses and doctors. Family members can request for this information at anytime. 
+                        </p></div><br>
+                </div>
             </div>
         </div>
         
