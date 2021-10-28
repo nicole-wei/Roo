@@ -157,13 +157,17 @@ hr {
 }
 
 #home_col {
-    width: 50%;
+    display:flex;
+    width: 100%;
     float: left;
 }
 
 #roo_patient {
     padding-top: 110px;
     width: 100%;
+}
+#hometext{
+    width: 50%;
 }
 
 #roo {
