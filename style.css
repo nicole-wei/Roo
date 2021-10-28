@@ -228,13 +228,13 @@ hr {
 }
 
 #history {
-    background-image: url(images/);
+    background-image: url(images/history/history_background-21.png);
     background-repeat: no-repeat;
-    height: 2600px;
+    height: 2100px;
 }
 
 #history_sec0 {
-    background: url(images/history/history_sec0.png);
+    background: url(images/history/);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1920px;
@@ -242,16 +242,16 @@ hr {
 }
 
 #history_heading {
-    padding-top: 405px;
+    padding-top: 350px;
     font-size: 6rem;
-    padding-right: 20px;
+    padding-right: x;
 }
 /* ----------------------------------------------- */
 #history_sec1 {
     display: flex;
     flex-direction: row;
     width: 100%; 
-    background-image: url(images/history/history_sec1.png);
+    background-image: url(images/);
     background-color: ;
     background-repeat: no-repeat;
     background-size: 1920px;
@@ -259,11 +259,11 @@ hr {
     justify-content: center;
 }
 #hs1 {
-    padding-top: 100px;
+    padding-top: 170px;
     width: 33%;
     margin: 20px;
     width: 500px;
-    height: 300px;
+    height: 200px;
 }
 #Pekee {
     padding-top: 0px;
@@ -271,7 +271,7 @@ hr {
     padding-right: 0%;
     width: 100%;
     min-width: ;
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin: auto;
 }
 
@@ -281,7 +281,7 @@ hr {
     padding-right: 0%;
     min-width: ;
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin: auto;
 }
 
@@ -291,7 +291,7 @@ hr {
     padding-right: 0px;
     min-width: ;
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin: auto;
 }
 
@@ -302,10 +302,10 @@ hr {
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    background-image: url(images/history/history_sec2.png);
+    background-image: url(images/);
     background-repeat: no-repeat;
     background-size: 1920px;
-    height: 575px;
+    height: 400px;
 }
 
 #hs2 {
@@ -352,14 +352,14 @@ hr {
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    background-image: url(images/history/history_sec3.png);
+    background-image: url(images/);
     background-repeat: no-repeat;
     background-size: 1920px;
-    height: 400px;
+    height: 450px;
 }
 
 #hs3 {
-    padding-top: 50px;
+    padding-top: 40px;
     width: 33%;
     margin: 20px;
     width: 500px;
@@ -399,14 +399,14 @@ hr {
 /* ----------------------------------------------- */
 
 #history_sec4 {
-    background-image: url(images/history/history_sec4.png);
+    background-image: url(images/);
     background-repeat: no-repeat;
     background-size: 1920px;
     height: 400px
 }
 
 #roo_history {
-    padding-top: 0px;
+    padding-top: px;
     padding-left: 160px;
     padding-right: 5%;
     font-size: 2rem;
