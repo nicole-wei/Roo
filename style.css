@@ -504,9 +504,9 @@ hr {
 #ashe_image {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 300px;
-    padding-top: 50px;
-    width: 350px;
+    padding-left: 350px;
+    padding-top: 120px;
+    width: 400px;
 }
 
 #story_ashe{
@@ -515,7 +515,8 @@ hr {
     margin-right: auto;
     max-width: 100%;
     padding-top: 100px;
-    padding-right: 300px
+    padding-right: 100px;
+    padding-left: 50px;
 }
 
 #joy_story_col{
@@ -545,12 +546,12 @@ hr {
 
 #userheading{
     font-size: 2.5rem;
-    margin-left:150px
+    margin-left:0px
 }
 
 #usertext{
     font-size: 1.25rem;
-    margin-left: 150px;
+    margin-left: 0px;
 }
 
 #FAQ {
@@ -569,13 +570,13 @@ hr {
     width: 100%;
     float: left; 
 }
-#rooheart{
-    width: 100%;
-    padding-top: 10px;
+#faqimage{
+    width: 115%;
+    padding-top: 200px;
 }
 
 #faqtext{
-    width: 50%;
+    width: 75%;
 }
 
 #faqhead{
@@ -611,6 +612,35 @@ hr {
     padding-top: 150px;
 }
 
+#team_col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#designer_col{
+    display:block; 
+    width: 50%;
+    float: left;
+}
+#teamname {
+    text-align: center;
+}
+#teamprofile{
+    width: 300px;
+    margin: 50px;
+    margin-bottom: 25px;
+}
+#team_text{
+    width: 80%;
+    font-size: 1.25rem;
+    margin: 50px;
+    padding-top: 50px
+}
+#teamtext{
+    width: 50%
+}
 #contact {
     background-image: url(images/elements/fabric_texture.png);
     background-size: 500px;
@@ -643,7 +673,8 @@ hr {
 #roo_wave {
     max-width: 100%;
     height: auto;
-    width: 880px;
+    width: 660px;
+    padding-right: 60px;
     float: right;
 }
 
@@ -1039,8 +1070,8 @@ footer {
         flex-direction: column-reverse;
         width:100%
     }
-    #rooheart{
-        width:100%
+    #faqimage{
+        width: 100%;
     }
     #faqtext{
         width: 100%
@@ -1065,9 +1096,6 @@ footer {
         font-size: 2rem;
         min-width: 400px;
         margin: auto;
-    }
-    #rooheart{
-        width: 100%
     }    
     #team {
         background-image: url(images/ears/ears_right.png);
@@ -1075,10 +1103,39 @@ footer {
         background-color: ;
         background-size: 100%;
         background-repeat: no-repeat;
-        height: 890px;
+        height: 1100px;
         margin: 0;
         padding: 0;
         padding-top: 150px;
+    }
+    #team_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+    #designer_col{
+        display:block; 
+        width: 50%;
+        float: left;
+    }
+    #teamname {
+        text-align: center;
+    }
+    #teamprofile{
+        width: 250px;
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+    #team_text{
+        width: 100%;
+        font-size: 1.80rem;
+        margin: 0px;
+        padding-top: 50px
+    }
+    #teamtext{
+        width: 100%;
     }
     #contact {
         background-image: url(images/elements/fabric_texture.png);
@@ -1110,9 +1167,10 @@ footer {
         margin-right: 13%;
     }
     #roo_wave{
-        width: 100%;
+        width: 72%;
         height: auto;
         float: right;
+        padding-right: 0px;
     }
     footer {
         height: 20px;
