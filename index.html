@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
-    
+    <!-- ---------- header ---------- -->
 <head>
     <title>Roo</title>
         <meta charset="UTF-8">
@@ -27,9 +27,13 @@
     
 <body>
     <div id="container">
+
     <!-- ---------- Navigation Bar ---------- -->
         <div id="nav_bar" class="topnav">
-                <a href="#home" style= "color: #f9a980; font-size: 2rem;"><b>Roo</b></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>                
+                <a href="#home" style= "color: #f9a980; padding-left: 60px; font-size: 2rem;"><b>Roo</b></a>
                 <a href="#mission">Mission</a>
                 <a href="#history">History</a>
                 <a href="#features">Features</a>
@@ -37,27 +41,25 @@
                 <a href="#FAQ">FAQ</a>
                 <a href="#team">Team</a>
                 <a href="#contact">Contact</a>
-    
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
         </div>
-    <!-- -----X----- navigation bar -----X----- -->
+        
+    <!-- --------------- Home ---------------- -->    
        <div id="home">
             <div id="home_col">
                 <div>
                     <img src="images/roo/patient_roo.png" id="roo_patient">
                 </div>
                 <div id="hometext">
-                    <div><h1 id="roo">Roo</h1></div>
-                    <div><h2 id=home_friend>a friend for yoo</h2></div>
+                    <h1 id="roo">Roo</h1>
+                    <h2 id=home_friend>a friend for yoo</h2>
                 </div>
             </div>
         </div>
         
+    <!-- ------------- mission --------------- --> 
         <div id="mission">
             <div id="mission_col">
-                <img src="images/heading/mission.png" id="mission_heading">
+                <h1 id=missionheading>Our Mission</h1>
                 <p id="mission_para">We believe that the hospitalization experience should not be stressful and unpleasant for children, so we engineered a robotic companion that can enhance the well-being of children in hospitals.
                 <br>
                 <br>
@@ -65,10 +67,11 @@
                 </p>
             </div>
                 <div id="mission_col">
-                <img src="images/profile/Mission_Shot.PNG" id="standing_roo">
+                <img src="images/profile/Mission_Shot.PNG" id="mission_roo">
             </div>
         </div>
         
+    <!-- ------------- history -------------- -->     
         <div id="history">
             <br>
             <div id="history_sec0">
@@ -77,42 +80,42 @@
             </div>
             <div id="history_sec1">
                 <div id="hs1">
-                    <div><p id="PARO"><b>PARO</b> - A therapeutic robot baby seal intended have a calming effect on and elicit emotional responses in patients of hospitals.
+                    <div><p id="historytext"><b>PARO</b> - A therapeutic robot baby seal intended have a calming effect on and elicit emotional responses in patients of hospitals.
                     </p></div>
                 </div>
                 <div id="hs1">
-                    <p id="Pekee"><b>Pekee</b> - A robot aimed for emotional and therapeutic needs and can recognize individual differences among the children to adapt their own behaviour accordingly.
+                    <p id="historytext"><b>Pekee</b> - A robot aimed for emotional and therapeutic needs and can recognize individual differences among the children to adapt their own behaviour accordingly.
                     </p>
                 </div>
                 <div id="hs1">
-                    <div><p id="PLEO"><b>PLEO</b> - A dino companion that acts like a pet for children.
+                    <div><p id="historytext"><b>PLEO</b> - A dino companion that acts like a pet for children.
                     </p></div>
                 </div>
             </div>
             <div id="history_sec2">
                 <div id="hs2">
-                    <p id=Huggable><b>Huggable</b> - A teddy bear controlled by nurse to communicate with children during checkups to reduce the stress of the child.
+                    <p id="historytext"><b>Huggable</b> - A teddy bear controlled by nurse to communicate with children during checkups to reduce the stress of the child.
                     </p>
                 </div>
                 <div id="hs2">
-                    <p id="Pepper"><B>Pepper</B> - A semi-humanoid robot designed with the ability to read emotions, provide assistance, and entertainment.</p>
+                    <p id="historytext"><B>Pepper</B> - A semi-humanoid robot designed with the ability to read emotions, provide assistance, and entertainment.</p>
                 </div>
                 <div id="hs2">
-                    <p id="ROBEAR"><B>ROBEAR</B> - A care robot that performs tasks in hospitals, such as lifting a patient or helping patients stand.
+                    <p id="historytext"><B>ROBEAR</B> - A care robot that performs tasks in hospitals, such as lifting a patient or helping patients stand.
                     </p>
                 </div>
             </div>
             <div id="history_sec3">
                 <div id="hs3">
-                    <p id="SAM"><b>SAM</b> - A care robot that provides check ins and non-medical care for elderly in nursing homes. 
+                    <p id="historytext"><b>SAM</b> - A care robot that provides check ins and non-medical care for elderly in nursing homes. 
                     </p>
                 </div>
                 <div id="hs3">
-                    <p id="Pillo_Health"><b>Pillo Health</b>- An automated medication management and smart home healthcare device. 
+                    <p id="historytext"><b>Pillo Health</b>- An automated medication management and smart home healthcare device. 
                     </p>
                 </div>
                 <div id="hs3">
-                    <p id="MIKO"><b>MIKO</b> - A companion robot aimed at kids. It can talk, respond, educate and entertain.
+                    <p id="historytext"><b>MIKO</b> - A companion robot aimed at kids. It can talk, respond, educate and entertain.
                     </p>
                 </div>
             </div>
@@ -125,6 +128,7 @@
         </div>
         <div id="history_footer"></div>
 
+    <!-- ------------- features -------------- -->        
         <div id="features">
             <div id="feature_col">
                 <div id="roo_inside">
@@ -132,7 +136,7 @@
                 </div>
                 <div id="featuretext">
                     <div>
-                        <img src="images/heading/features_orange.png" id="heading_features">
+                        <h1 id="features_heading">Features</h1>
                     </div>
                     <div id=feature_text>
                         <p id="feature1">Roo can recognize a child’s emotions with the use of cameras located in its eyes. These cameras are able to detect facial expressions and learn how to respond to these reactions with the use of artificial intelligence. Based on the emotions expressed, Roo will react with programmed movements, such as gesturing for a hug to comfort the child. Roo has programmed questions and responses which provide the child a friend they can talk to. Additionally, the child’s reactions and responses (transcript) are recorded on a cloud service so that healthcare professionals have access. With this information, the medical staff is aware of how the child reacts in different situations.
@@ -153,6 +157,7 @@
         <div id="spacing">
         </div>
         
+    <!-- ------------- stories -------------- -->    
         <div id="stories">
             <div id="stories_half_circle">
             <h1 id="stories_heading"><center>Stories</center></h1>
@@ -186,6 +191,7 @@
             </div>
         </div>
         
+    <!-- ------------- FAQ -------------- -->     
         <div id="FAQ">
             <div id="faq_col">
                 <div>
@@ -213,9 +219,10 @@
                 </div>
             </div>
         </div>
-        
+    
+    <!-- ------------- team -------------- -->     
         <div id="team">
-            <h1>Team</h1><br>
+            <h1 id="teamhead">Team</h1><br>
             <div id="team_col">
                 <div id="designers">
                     <div id=designer_col>
@@ -233,6 +240,7 @@
             </div>
         </div>
         
+    <!-- ------------- contact -------------- -->     
         <div id="contact">
             <div id="contact_col">
             <h1 id="contacthead">Contact Us</h1><br>
@@ -268,7 +276,8 @@
     
 </body>
     
+    <!-- ------------- footer -------------- -->     
     <footer>
-           Copyright &copy; 2021 ROObot, a Registered Trademark of ROObot Franchising, LLC. All Rights Reserved.
+           Copyright &copy; 2027 ROObot, a Registered Trademark of ROObot Franchising, LLC. All Rights Reserved.
     </footer>
 </html>

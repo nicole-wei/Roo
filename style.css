@@ -28,7 +28,7 @@ body, div {
     width: 100%;
     text-align: center;
     background-color: white;
-    color: white;
+    color: ;
 }
 
 .topnav a {
@@ -49,7 +49,7 @@ body, div {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: ;
   color: #f9a980;
 }
 
@@ -80,10 +80,10 @@ li a:hover {
 } 
 
 h1 {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     width: 70%;
-    color: #f9a980;
+    color: #3c241d;
     font-family: josefin sans, sans-serif;
     font-weight: 600;
     font-size: 5rem;
@@ -92,8 +92,8 @@ h1 {
 }
 
 h2 {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     width: 70%;
     color: #3c241d; 
     font-weight: 400;
@@ -104,8 +104,8 @@ h2 {
 }
 
 h3 {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     width: 70%;
     color: #3c241d;
     font-weight: 300;
@@ -121,8 +121,8 @@ p {
     font-size: 1rem;
     line-height: 1.5;
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px; 
+    padding: 0px;
 }
 
 hr {
@@ -134,26 +134,14 @@ hr {
     border-radius: 3px;
 }
 
-#left_col {
-    width: 50%; 
-    height: 500px; 
-    float: left; 
-    padding-top: 50px;
-}
-
-#right_col { 
-    width: 50%; 
-    height: 500px; 
-    float: left; 
-    padding-top: 50px;
-}
+/* --------------------HOME--------------- */
 
 #home {
     background-image: url(images/elements/fabric_texture.png);
     background-size: 750px;
     background-repeat: repeat;
-    height: 890px;
-    padding-top: 190px; 
+    height: 980px;
+    padding-top: 100px; 
 }
 
 #home_col {
@@ -164,11 +152,14 @@ hr {
 }
 
 #roo_patient {
-    padding-top: 105px;
-    width: 100%;
+    padding-top: 120px;
+    width: 110%;
 }
 
 #hometext{
+    padding-top: 60px;
+    margin-right: 0px;
+    margin-left: 0px;
     width: 50%;
 }
 
@@ -177,18 +168,24 @@ hr {
     font-weight: 600;
     font-size: 12rem; 
     width: 70%;
-    margin-left: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 50px;
     padding-top: 200px;
 }
 
 #home_friend {
     color: #3c241d;
+    width: 50%;
     font-weight: 400;
     font-size: 4rem;
-    width: 70%;
-    margin-left: 70px;
+    padding-left: 60px;
     margin-top: -20px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
+
+/* -------------------MISSION----------------- */
 
 #mission {
     background-image: url(images/ears/ears_white.png);
@@ -205,21 +202,17 @@ hr {
     float: left;
 }
 
-#mission_heading {
-    max-width: ;
-    width: 50%;
-    height: auto;
-    padding-left: 200px;
-    padding-top: 100px;
+#missionheading {
+    padding-left: 300px;
+    padding-top: 200px;
 }
-
 #mission_para {
     padding-left: 310px;
     padding-top: 25px;
     font-size: 1.25rem;  
 }
 
-#standing_roo {
+#mission_roo {
     max-width; 90%;
     height:auto; 
     width: 87.5%;
@@ -227,8 +220,11 @@ hr {
     position: bottom;
 }
 
+/* ----------------HISTORY--------------- */
+
 #history {
     background-image: url(images/history/history_background-21.png);
+    background-color: ; 
     background-repeat: no-repeat;
     height: 2100px;
 }
@@ -246,7 +242,7 @@ hr {
     font-size: 6rem;
     padding-right: x;
 }
-/* ----------------------------------------------- */
+
 #history_sec1 {
     display: flex;
     flex-direction: row;
@@ -265,37 +261,6 @@ hr {
     width: 500px;
     height: 200px;
 }
-#Pekee {
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0%;
-    width: 100%;
-    min-width: ;
-    font-size: 1.75rem;
-    margin: auto;
-}
-
-#PARO {
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0%;
-    min-width: ;
-    width: 100%;
-    font-size: 1.75rem;
-    margin: auto;
-}
-
-#PLEO {
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    min-width: ;
-    width: 100%;
-    font-size: 1.75rem;
-    margin: auto;
-}
-
-/* ----------------------------------------------- */
 
 #history_sec2 {
     display: flex;
@@ -315,37 +280,6 @@ hr {
     width: 500px;
     height: 200px; 
 }
-#ROBEAR {
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0%;
-    width: 100%;
-    min-width: ;
-    font-size: 2rem;
-    margin: auto;
-}
-
-#Pepper {
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0%;
-    width: 100%;
-    min-width: ;
-    font-size: 2rem;
-    margin: auto;
-}
-
-#Huggable {
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0%;
-    width: 100%;
-    min-width: ;
-    font-size: 2rem;
-    margin: auto;
-}
-
-/* ----------------------------------------------- */
 
 #history_sec3 {
     display: flex;
@@ -355,7 +289,7 @@ hr {
     background-image: url(images/);
     background-repeat: no-repeat;
     background-size: 1920px;
-    height: 450px;
+    height: 390px;
 }
 
 #hs3 {
@@ -366,37 +300,15 @@ hr {
     height: 200px; 
 }
     
-#SAM {
+#historytext {
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0%;
     width: 100%;
     min-width: ;
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin: auto;
 }
-
-#Pillo_Health {
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0%;
-    width: 100%;
-    min-width: ;
-    font-size: 2rem;
-    margin: auto;
-}
-
-#MIKO {
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0%;
-    width: 100%;
-    min-width: ;
-    font-size: 2rem;
-    margin: auto;
-}
-
-/* ----------------------------------------------- */
 
 #history_sec4 {
     background-image: url(images/);
@@ -407,12 +319,12 @@ hr {
 
 #roo_history {
     padding-top: px;
-    padding-left: 160px;
+    padding-left: 70px;
     padding-right: 5%;
     font-size: 2rem;
     min-width: 400px;
     width: 25%;
-    float: left; 
+    margin: auto;
 }
 
 /* ----------------------------------------------- */
@@ -421,11 +333,13 @@ hr {
     background-image: url(images/ears/history_footer.png);
     background-repeat: no-repeat;
     background-size: 1920px; 
-    height: 185px;
+    height: 180px;
 }
 
+/* ------------------FEATURES------------------- */
+
 #features {
-    background-image: url(images/elements/features_path.png);
+    background-image: url(images/elements/features_path-20.png);
     background-size: auto;
     background-repeat: no-repeat;
     height: 990px;
@@ -454,18 +368,18 @@ hr {
     width: 110%;
 }
 
-#heading_features {
+#features_heading {
     width: 45%;
     float: none; 
-    padding-top: 60px;
-    padding-left: 30px;
+    padding-top: 165px;
+    padding-left: 90px;
     margin: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 #feature_text {
-    padding-left: 20px;
-    font-size: ; 
+    padding-left: 90px;
+    font-size: 1.5rem; 
     font-weight: 300;
     width: 90%;
     min-width: 400px;
@@ -475,8 +389,10 @@ hr {
     font-size: 1.25rem;
 }
 
+/* ------------------STORIES---------------- */
+
 #stories {
-    height: 1350px;
+    height: 1355px;
     padding-top: 120px;
 }
 
@@ -504,8 +420,8 @@ hr {
 #ashe_image {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 350px;
-    padding-top: 120px;
+    padding-left: 340px;
+    padding-top: 0px;
     width: 400px;
 }
 
@@ -514,7 +430,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
-    padding-top: 100px;
+    padding-top: 40px;
     padding-right: 100px;
     padding-left: 50px;
 }
@@ -554,6 +470,8 @@ hr {
     margin-left: 0px;
 }
 
+/* -----------------FAQ------------------------ */
+
 #FAQ {
     background-image: url(images/ears/ears_white.png);
     background-position: bottom;
@@ -571,8 +489,8 @@ hr {
     float: left; 
 }
 #faqimage{
-    width: 115%;
-    padding-top: 200px;
+    width: 130%;
+    padding-top: 300px;
 }
 
 #faqtext{
@@ -600,6 +518,8 @@ hr {
     margin-left: 5%; 
 }
 
+/* ----------------TEAM------------------------- */
+
 #team {
     background-image: url(images/ears/ears_right.png);
     background-position: bottom;
@@ -611,7 +531,12 @@ hr {
     padding: 0;
     padding-top: 150px;
 }
-
+#teamhead{
+    padding-left: 70px;
+    padding-top: 50px;
+    margin: 0px;
+    margin-left: 5%;
+}
 #team_col{
     display: flex;
     flex-direction: row;
@@ -629,7 +554,7 @@ hr {
 }
 #teamprofile{
     width: 300px;
-    margin: 50px;
+    margin: 25px;
     margin-bottom: 25px;
 }
 #team_text{
@@ -641,6 +566,9 @@ hr {
 #teamtext{
     width: 50%
 }
+
+/* -------------------CONTACT--------------------- */
+
 #contact {
     background-image: url(images/elements/fabric_texture.png);
     background-size: 500px;
@@ -678,6 +606,8 @@ hr {
     float: right;
 }
 
+/* -------------------FOOTER-------------------- */
+
 footer {
     height: 25px;
     padding-top: 35px;
@@ -692,7 +622,8 @@ footer {
     background-color: #d5e8c5;
 }
 
-/* this is where you can design mobile version */
+/* -----------------MOBILE NAV----------------------- */
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
     .topnav a:first-child {
@@ -706,7 +637,6 @@ footer {
   }
 }
 
-/* this is where you can design mobile version */
 @media screen and (max-width : 600px) {
     
   .topnav.responsive {
@@ -729,14 +659,18 @@ footer {
     #home, #mission, #history, #features, #stories, #FAQ, #team, #contact 
 }
 
+/* ----------------MOBILE--------------------- */
+
 @media only screen and (max-width : 600px) {
+   
+    /* ---------------------HOME------------------- */
     
     #home {
         background-image: url(images/elements/fabric_texture.png);
-        background-size: 750px;
-        background-repeat: repeat;
-        height: 890px;
-        padding-top: 190px; 
+        background-size: 300px;
+        background-repeat: none;
+        height: 917px;
+        padding-top: 150px; 
     }
     #home_col {
         display:flex;
@@ -744,6 +678,7 @@ footer {
     }
 
     #roo_patient {
+        padding-top: 100px;
         width: 100%;
     }
     
@@ -752,43 +687,49 @@ footer {
     }
     #roo {
         font-size:;
-        padding-top: 100px;
+        padding-top: 0px
     }
 
     #home_friend {
         font-size: ;
-        width: 100%
+        width: 76%;
     } 
+    
+    /* --------------------MISSION---------------------- */
+    
     #mission {
         background-image: url(images/ears/ears_white.png);
         background-position: bottom;
         background-size: 100%;
         background-repeat: no-repeat;
         background-color: blanchedalmond;
-        height: 2090px;
+        height: 2100px;
         padding-top: 90px;
     }
     #mission_col {
        width: 100%;
        float: left;
     }
-    #mission_heading {
+    #missionheading {
         max-width: ;
         width: 90%;
         height: auto;
         padding-left: 0px;
-        padding-top: 80px;
+        padding-top: 150px;
     }
     #mission_para {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
+        margin: 40px;
+        margin-bottom: 0px;
+        padding: 0px;
         width: auto;
         font-size: 2.25rem;
     }
-    #standing_roo{
+    #mission_roo{
         width: 100%;
     }
+    
+    /* -----------------HISTORY------------------------- */
+    
     #history {
         background-image: url(images/);
         background-color: ;
@@ -799,16 +740,17 @@ footer {
     #history_sec1 {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 82%;
         height: auto;
+        margin-right: 0px;
         padding-left: 100px;
         padding-top: 50px;
         background-image: none;
-        }
+    }
     #history_sec2{
         display: flex;
         flex-direction: column-reverse;
-        width: 100%;
+        width: 82%;
         height: auto;
         padding-left: 100px;
         background-image: none;
@@ -816,139 +758,66 @@ footer {
     #history_sec3 {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 82%;
         height: auto;
         padding-left: 100px;
         background-image: none;
     }
     #history_sec4{
-        width: 90%;
+        width: 80%;
         height: auto;
         padding-left: 100px;
         background-image: none;
     }
-/* --------------------------------------------------*/
     #hs1{
         height: auto;
+        width: 92%;
         padding-top: 0px;
     }
     #hs2{
         height: auto;
+        width: 92%;
         padding-top: 0px;
     }   
     #hs3{
         height: auto;
+        width: 92%;
         padding-top: 0px;
     }
-/* --------------------------------------------------*/
-    #PLEO {
-        padding-top: 25px;
-        padding-left: 25px;
-        padding-right: 25px;
-        width: 100%;
-        font-size: 2.25rem;
+    #historytext {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 95%;
+        font-size: 2rem;
         height: auto;
         margin: 0px;
     }
-    #Pekee {
-        padding-top: 25px;
-        padding-left: 25px;
-        padding-right: 25px;
-        width: 100%;
-        font-size: 2.25rem;
-        height: auto;
-        margin: 0px;
-    }
-    #PARO {
-        padding-top: 25px;
-        padding-left: 25px;
-        padding-right: 25px;
-        width: 100%;
-        font-size: 2.25rem;
-        height: auto;
-    }
-    #ROBEAR {
-        padding-top: 25px;
-        padding-left: 25px;
-        padding-right: 25px;
-        width: 100%;
-        font-size: 2.25rem;
-        height: auto;
-        margin: 0px;
-    }
-
-    #Pepper {
-        padding-top: 25px;
-        padding-left: 25px;
-        padding-right: 25px;
-        width: 100%;
-        font-size: 2.25rem;
-        height: auto;
-        margin: 0px;
-    }
-
-    #Huggable {
-        padding-top: 25px;
-        padding-left: 25px;
-        padding-right: 25px;
-        width: 100%;
-        font-size: 2.25rem;
-        height: auto;
-        margin: 0px;
-    }
-    #SAM {
-        padding-top: 25px;
-        padding-left: 25px;
-        padding-right: 25px;
-        width: 100%;
-        font-size: 2.25rem;
-        height: auto;
-        margin: 0px;
-    }
-
-    #Pillo_Health {
-        padding-top: 25px;
-        padding-left: 25px;
-        padding-right: 25px;
-        width: 100%;
-        font-size: 2.25rem;
-        height: auto;
-        margin: 0px;
-    }
-
-    #MIKO {
-        padding-top: 25px;
-        padding-left: 25px;
-        padding-right: 25px;
-        width: 100%;
-        font-size: 2.25rem;
-        height: auto;
-        margin: 0px;
-    }
-
     #roo_history {
         padding-top: 25px;
-        padding-left: 50px;
-        padding-right: 25px;
+        padding-left: 20px;
+        padding-right: 0px;
         width: 100%;
-        font-size: 2.25rem;
+        font-size: 2rem;
         height: auto;
         margin: 0px;
     }
-/* --------------------------------------------------*/
     #history_footer {
         background-image: url(images/ears/history_footer.png);
         background-repeat: no-repeat;
         background-size: 100%; 
         height: 50px;
     }
+    
+    /* ---------------------FEATURES---------------------- */
+    
     #features {
-        background-image: url(images/elements/features_path.png);
+        background-image: url(images/elements/features_path_M-22.png);
         background-size: auto;
         background-color: ;
         background-repeat: no-repeat;
-        height: 2410px;
-        padding-top: 90px;
+        height: 2465px;
+        padding-top: 80px;
     }
     #feature_col {
         display: flex;
@@ -967,12 +836,12 @@ footer {
         padding-top: 50px;
         width: 100%;
     }
-    #heading_features {
-        width: 60%;
+    #features_heading {
+        width: 50%;
         float: none; 
-        padding-top: 60px;
-        padding-left: 30px;
-        margin: 0px;
+        padding-top: 100px;
+        padding-left: 0px;
+        margin: 40px;
         margin-bottom: 10px;
     }
     #feature_text {
@@ -982,13 +851,16 @@ footer {
         padding-left: 0px;
     }
     #feature1{
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
         padding-top: 25px;
         width: auto;
         font-size: 2.25rem;
         margin: auto; 
     }
+    
+    /* --------------------STORIES-------------------- */
+    
     #stories{
         background-color: ;
         height: 3700px;
@@ -1011,12 +883,12 @@ footer {
         
     }
     #story_ashe{
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 40px;
+        padding-right: 0px;
         padding-top: 25px;
         font-size: 2.25rem;
         margin: 0px;
-        width: 90%;
+        width: 87%;
     }
     #userheading{
         font-size: 2.5rem;
@@ -1049,20 +921,23 @@ footer {
         padding-top: 150px;
     }
     #story_joy{
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 40px;
+        padding-right: 0px;
         padding-top: 25px;
         font-size: 2.25rem;
         margin: 0px;
-        width: 90%;
+        width: 87%;
     }
+    
+    /* -------------------FAQ------------------------ */
+    
     #FAQ{
         background-image: url(images/ears/ears_white.png);
         background-position: bottom;
         background-color: ; 
         background-size: 100%;
         background-repeat: no-repeat;
-        height: 1875px;
+        height: 1710px;
         padding-top: 100px;
     }
     #faq_col{
@@ -1072,16 +947,17 @@ footer {
     }
     #faqimage{
         width: 100%;
+        padding-top: 50px;
     }
     #faqtext{
         width: 100%
     }
     #faqhead{
-        width: 100%; 
+        width: 50%; 
     }
     #questions{
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
         padding-top: 25px;
         width: auto;
         font-size: 2rem;
@@ -1089,32 +965,43 @@ footer {
         margin: auto;
     }
     #answers{
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
         padding-top: 25px;
         width: auto;
         font-size: 2rem;
         min-width: 400px;
         margin: auto;
     }    
+    
+    /* ------------------TEAM----------------------- */
+    
     #team {
         background-image: url(images/ears/ears_right.png);
         background-position: bottom;
         background-color: ;
         background-size: 100%;
         background-repeat: no-repeat;
-        height: 1100px;
+        height: 1200px;
         margin: 0;
         padding: 0;
-        padding-top: 150px;
+        padding-top: 130px;
     }
     #team_col{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 83%;
 }
+    #teamhead{
+        width: 32%;
+        margin-right:auto;
+        margin-left: auto; 
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
     #designer_col{
         display:block; 
         width: 50%;
@@ -1127,6 +1014,7 @@ footer {
         width: 250px;
         margin: 0px;
         margin-bottom: 25px;
+        padding-top: 0px;
     }
     #team_text{
         width: 100%;
@@ -1137,6 +1025,9 @@ footer {
     #teamtext{
         width: 100%;
     }
+    
+    /* -------------------CONTACT---------------------- */
+    
     #contact {
         background-image: url(images/elements/fabric_texture.png);
         background-size: 500px;
@@ -1172,9 +1063,12 @@ footer {
         float: right;
         padding-right: 0px;
     }
+    
+    /* -----------------FOOTER------------------------ */
+    
     footer {
-        height: 20px;
-        padding-top: 35px;
+        height: 25px;
+        padding-top: 30px;
         padding-bottom: 30px;
         margin-left: auto;
         margin-right: auto;
