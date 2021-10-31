@@ -157,8 +157,8 @@ hr {
 }
 
 #roo_patient {
-    padding-top: 115px;
-    width: 110%;
+    padding-top: 135px;
+    width: 113%;
 }
 #roo_patient_M {
     display: none;
@@ -222,9 +222,9 @@ hr {
 }
 
 #mission_roo {
-    max-width; 90%;
+    max-width; 100%;
     height:auto; 
-    width: 830px;
+    width: 840px;
     float: right;
     position: bottom;
 }
@@ -502,7 +502,7 @@ hr {
 }
 #faqimage{
     width: 120%;
-    padding-top: 292px;
+    padding-top: 280px;
 }
 
 #faqtext{
@@ -618,9 +618,8 @@ hr {
 }
 
 #roo_wave {
-    max-width: 100%;
     height: auto;
-    width: 661px;
+    width: 680px;
     padding-right: 60px;
     float: right;
 }
@@ -1123,10 +1122,10 @@ footer {
         margin-left: 60px;
     }
     #roo_wave{
-        width: 70%;
+        width: 430px;
         height: auto;
         float: left;
-        padding-left: 175px;
+        padding-left: 170px;
         padding-right: 0px;
         padding-top: 180px;
     }
