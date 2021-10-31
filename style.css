@@ -157,6 +157,7 @@ hr {
 }
 
 #roo_patient {
+    display: block;
     padding-top: 135px;
     width: 113%;
 }
