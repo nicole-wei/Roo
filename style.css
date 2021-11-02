@@ -23,7 +23,7 @@ body, div {
     
 #nav_bar {
     position: fixed;
-    width: 100%;
+    width: 1920px;
     z-index: 1;
 }
 
@@ -40,7 +40,7 @@ body, div {
     text-align: center;
     text-decoration: none;
     color: black;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     height: 20px;
     padding-top: 20px;
     padding-bottom: 25px;
@@ -102,14 +102,14 @@ h2 {
     color: #3c241d; 
     font-weight: 400;
     font-size: 2rem;
-    line-height: 1.5;
+    line-height: 1.25;
     margin-left: auto;
     margin-right: auto;
 }
 
 h3 {
     margin: 0px;
-    padding: 0px;
+    padding-top: 5px;
     width: 70%;
     color: #3c241d;
     font-weight: 300;
@@ -134,10 +134,27 @@ hr {
     border-top: 3px solid;
     border-color: #f9a980;
     margin-left: 13%;
+    margin-right: 15%; 
     background-color: none;
     border-radius: 3px;
+    margin-top: 0px;
 }
 
+#questionscomments{
+    padding-top: 0px;
+    border-width: 0px;
+    border-bottom: 3px solid;
+    border-color: #f9a980;
+    margin-left: 13%;
+    margin-right: 15%; 
+    background-color: none;
+    border-radius: 3px;
+    margin-top: 0px;
+}
+
+#qc{
+    padding-top: 20px;
+}
 /* --------------------HOME--------------- */
 
 #home {
@@ -157,9 +174,8 @@ hr {
 }
 
 #roo_patient {
-    display: block;
-    padding-top: 135px;
-    width: 113%;
+    padding-top: 155px;
+    width: 115%;
 }
 #roo_patient_M {
     display: none;
@@ -169,7 +185,7 @@ hr {
     padding-top: 60px;
     margin-right: 0px;
     margin-left: 0px;
-    width: 50%;
+    width: 54%;
 }
 
 #roo {
@@ -185,7 +201,7 @@ hr {
 
 #home_friend {
     color: #3c241d;
-    width: 50%;
+    width: 60%;
     font-weight: 400;
     font-size: 4rem;
     padding-left: 85px;
@@ -223,7 +239,6 @@ hr {
 }
 
 #mission_roo {
-    display: block;
     max-width; 100%;
     height:auto; 
     width: 840px;
@@ -240,7 +255,7 @@ hr {
     background-image: url(images/history/history_background-21.png);
     background-color: white; 
     background-repeat: no-repeat;
-    height: 2000px;
+    height: 2050px;
 }
 
 #history_sec0 {
@@ -252,9 +267,9 @@ hr {
 }
 
 #history_heading {
-    padding-top: 350px;
+    padding-top: 365px;
     font-size: 6rem;
-    padding-right: ;
+    padding-left: 30px;;
 }
 
 #history_sec1 {
@@ -307,7 +322,7 @@ hr {
 }
 
 #hs3 {
-    padding-top: 40px;
+    padding-top: 50px;
     width: 33%;
     margin: 20px;
     width: 500px;
@@ -315,12 +330,12 @@ hr {
 }
     
 #historytext {
-    padding-top: 0px;
+    padding-top: 25px;
     padding-left: 0px;
-    padding-right: 0%;
-    width: 100%;
+    padding-right: 60px;
+    width: 80%;
     min-width: ;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     margin: auto;
 }
 
@@ -332,12 +347,12 @@ hr {
 }
 
 #roo_history {
-    padding-top: px;
-    padding-left: 70px;
+    padding-top: 90px;
+    padding-left: 30px;
     padding-right: 5%;
-    font-size: 2rem;
+    font-size: 1.25rem;
     min-width: 400px;
-    width: 25%;
+    width: 20%;
     margin: auto;
 }
 
@@ -374,7 +389,7 @@ hr {
 #roo_inside {
     max-width: 100%; 
     width: 50%;
-    padding-top: 80px;
+    padding-top: 86px;
 }
 
 #rooinside {
@@ -412,13 +427,13 @@ hr {
     background-repeat: no-repeat;
     background-size: 1920px;
     background-color: white;
-    height: 1358px;
+    height: 1420px;
     padding-top: 150px;
 }
 
 #stories_heading {
     font-size: 6rem;
-    padding-top: 145px;
+    padding-top: 220px;
 }
 
 #ashe_story_col{
@@ -467,7 +482,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
-    padding-top: 50px;
+    padding-top: 75px;
     padding-left: 310px;
     padding-right: 35px;
 }
@@ -512,7 +527,7 @@ hr {
 }
 
 #faqhead{
-    padding-top: 115px;
+    padding-top: 95px;
     margin: 0px;
     width: 63%;
     margin-left: 8%;
@@ -548,7 +563,7 @@ hr {
 #teamhead{
     width: 30%;
     padding-left: 750px;
-    padding-top: 35px;
+    padding-top: 30px;
     margin-right: auto;
     margin-left: auto;
     font-size: 6rem;
@@ -675,7 +690,11 @@ footer {
     display: block;
     text-align: center;
   }
-    
+    #nav_bar {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
     #home, #mission, #history, #features, #stories, #FAQ, #team, #contact 
 }
 
@@ -712,7 +731,7 @@ footer {
     }
     #roo_patient_M {
         display: block; 
-        padding-top: 105px;
+        padding-top: 120px;
         width: 600px;
     }
     #hometext{
@@ -765,7 +784,7 @@ footer {
     }
     #mission_roo_M{
         display:block;
-        margin-top: -50px;
+        margin-top: -65px;
         width: 600px;
     }
     /* -----------------HISTORY------------------------- */
@@ -781,6 +800,7 @@ footer {
     } 
     #history_heading{
         padding-top: 235px;
+        padding-left: 0px;
     }
     #history_sec0{
         height: 490px;
@@ -892,7 +912,7 @@ footer {
     #features_heading {
         width: 50%;
         float: none; 
-        padding-top: 100px;
+        padding-top: 90px;
         padding-left: 0px;
         margin: 40px;
         margin-bottom: 10px;
@@ -918,8 +938,8 @@ footer {
         background-image: url(images/elements/stories_path_M-16.png);
         background-size: 600px;
         background-color: ;
-        height: 2929px;
-        padding-top: 138px;
+        height: 3000px;
+        padding-top: 65px;
     }
     #ashe_story_col{
         display: flex;
@@ -932,7 +952,7 @@ footer {
         margin-right: auto;
         padding: 16.5%;
         padding-bottom: 0;
-        padding-top: 0px;
+        padding-top: 35px;
         width: 400px;
     }
     #story_ashe{
@@ -969,9 +989,8 @@ footer {
         margin-right: auto;
         padding: 16.5%;
         padding-bottom: 0;
-        padding-top: 0px;
         width: 400px;
-        padding-top: 50px;
+        padding-top: 40px;
     }
     #story_joy{
         padding-left: 40px;
@@ -1057,7 +1076,7 @@ footer {
         margin-left: auto; 
         padding-left: 0px;
         padding-bottom: 30px;
-        padding-top: 100px
+        padding-top: 105px
     }
     #designer_col{
         display:block; 
@@ -1122,6 +1141,10 @@ footer {
     }
     h3{
         margin-left: 60px;
+    }
+    #questionscomments{
+        margin-left: 6.5%;
+        margin-right: 6.5%; 
     }
     #roo_wave{
         width: 430px;
